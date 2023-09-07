@@ -16,4 +16,21 @@
 // }
 // export default Todo;
 
-// option number 03 of conditional rendering
+// option number 03 of conditional rendering using ternary
+
+// export default function Todo({ task, isDone }) {
+//   return (
+//     <li>
+//       {isDone ? "finished" : "work on"}:{task}
+//     </li>
+//   );
+// }
+
+// option number 04
+export default function Todo({ task, isDone }) {
+  return (
+    <li>
+      {task} {isDone && ":Done"}
+    </li>
+  );
+}
