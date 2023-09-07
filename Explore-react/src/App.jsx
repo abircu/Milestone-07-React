@@ -2,9 +2,18 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import Todo from "./todo";
+import Actor from "./actor";
+import Singer from "./singer";
 import "./App.css";
 
 function App() {
+  const actors = ["sakib", "raj", "bapparaj", "manna"];
+  const singers = [
+    { id: 1, name: "dr.mahfujur rahman", age: 68 },
+    { id: 2, name: "dr.ohedur rahman", age: 48 },
+    { id: 3, name: "dr.mijanur rahman", age: 38 },
+    { id: 4, name: "dr.saifur rahman", age: 28 },
+  ];
   return (
     <>
       <h1>hello</h1>
@@ -13,13 +22,13 @@ function App() {
       <Person></Person>
       <Person2></Person2>
       <Developer></Developer>
-      <Device name="mobail" price="10500"></Device>
-      <Device name="laptop" price="100500"></Device>
-      <Device name="watch" price="500"></Device>
-      <Student grade={grade} score={score}></Student>
-      <Todo task="learn react " isDone={true} />
-      <Todo task="core concepts " isDone={false} />
-      <Todo task="try jsx " isDone={true} />
+      <Actor name={"bappa raj"} />
+      {actors.map((actor) => (
+        <Actor key={actor} name={actor} />
+      ))}
+      {singers.map((singer) => (
+        <Singer singer={singer}></Singer>
+      ))}
     </>
   );
 }
