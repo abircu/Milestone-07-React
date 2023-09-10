@@ -3,3 +3,7 @@
     grid-template-columns: repeat(3,1fr);
     gap: 10px;
 }
+.image_container img{
+    width: 10%;
+    gap: 10px;
+}

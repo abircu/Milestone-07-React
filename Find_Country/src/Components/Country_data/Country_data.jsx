@@ -1,6 +1,10 @@
 import { useState } from "react";
 import "./country.css";
-const Country_data = ({ countries, handleVisitedCountry }) => {
+const Country_data = ({
+  countries,
+  handleVisitedCountry,
+  handleVisitedCountryFlag,
+}) => {
   console.log(countries);
   if (!countries || !countries.name || !countries.name.common) {
     return null; // or display an error message
@@ -28,7 +32,12 @@ const Country_data = ({ countries, handleVisitedCountry }) => {
           <h5>{population} poeple</h5>
           <p>{cca3}</p>
         </div>
-        <button onClick={() => handleVisitedCountry(countries)}>
+        <button
+          onClick={() => {
+            handleVisitedCountry(countries);
+            handleVisitedCountryFlag(countries);
+          }}
+        >
           Mark as visited
         </button>
         <br />
