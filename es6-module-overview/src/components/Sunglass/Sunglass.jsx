@@ -3,7 +3,6 @@ import {
   diviteTheFirstNumberByTheSecondNumber as div,
   multiply,
 } from "../../Utilts/calculate";
-import Watch from "../Watch/Watch";
 import "./Sunglass.css";
 const Sunglass = () => {
   const first = 50;
@@ -16,7 +15,6 @@ const Sunglass = () => {
       <h1>{sum}</h1>
       <h2>{mult}</h2>
       <h3>{divite}</h3>
-      <Watch></Watch>
     </div>
   );
 };
