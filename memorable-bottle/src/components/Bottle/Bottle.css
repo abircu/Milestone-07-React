@@ -1,0 +1,10 @@
+.botlle{
+   background-color:gray;
+   color: white;
+   padding: 15px;
+  margin: 15px;
+  border-radius: 16px;
+}
+.botlle img{
+    width: 50%;
+}
