@@ -1,0 +1,8 @@
+.bottle-arranging{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    gap: 5px;
+}
+.bottle-arranging img{
+    width: 100%;
+}
