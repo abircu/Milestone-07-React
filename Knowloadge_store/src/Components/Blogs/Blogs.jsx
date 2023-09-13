@@ -9,8 +9,10 @@ const Blogs = () => {
   }, []);
 
   return (
-    <div>
-      <h2></h2>
+    <div className=" md:w-[75%]">
+      <h2 className=" text-3xl text-center md:text-start">
+        Blogs: {blogs.length}
+      </h2>
     </div>
   );
 };
