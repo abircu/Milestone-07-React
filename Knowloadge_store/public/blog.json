@@ -1,7 +1,7 @@
 [
   {
     "ID": 101,
-    "Cover_Image": "https://i.ibb.co/C90stTk/25582944-585.jpg",
+    "Cover_Image": "https://i.ibb.co/9tJ1HSQ/16443324-544-social-media-post-template.jpg",
     "Title": "Exploring the Wonders of Deep Space",
     "Author": "Jane Smith",
     "Author_Image": "https://i.ibb.co/QmgNJH8/woman-writing-something-diary.jpg",
@@ -11,7 +11,7 @@
   },
   {
     "ID": 102,
-    "Cover_Image": "https://i.ibb.co/C90stTk/25582944-585.jpg",
+    "Cover_Image": "https://i.ibb.co/9tJ1HSQ/16443324-544-social-media-post-template.jpg",
     "Title": "The Art of Gourmet Cooking",
     "Author": "John Doe",
     "Author_Image": "https://i.ibb.co/QmgNJH8/woman-writing-something-diary.jpg",
@@ -21,7 +21,7 @@
   },
   {
     "ID": 103,
-    "Cover_Image": "https://i.ibb.co/VB16ndd/13472837-345-digital-marketing-social-media-post-template.jpg",
+    "Cover_Image": "https://i.ibb.co/9tJ1HSQ/16443324-544-social-media-post-template.jpg",
     "Title": "Tips for Healthy Living",
     "Author": "Sarah Johnson",
     "Author_Image": "https://i.ibb.co/QmgNJH8/woman-writing-something-diary.jpg",
@@ -31,7 +31,7 @@
   },
   {
     "ID": 104,
-    "Cover_Image": "https://i.ibb.co/TbX0Hky/16443324-544-social-media-post-template.jpg",
+    "Cover_Image": "https://i.ibb.co/9tJ1HSQ/16443324-544-social-media-post-template.jpg",
     "Title": "Adventure Travel: Exploring the Amazon Rainforest",
     "Author": "Mark Anderson",
     "Author_Image": "https://i.ibb.co/QmgNJH8/woman-writing-something-diary.jpg",
@@ -41,11 +41,11 @@
   },
   {
     "ID": 105,
-    "Cover_Image": "https://i.ibb.co/C90stTk/25582944-585.jpg",
+    "Cover_Image": "https://i.ibb.co/9tJ1HSQ/16443324-544-social-media-post-template.jpg",
     "Title": "The Science of Artificial Intelligence",
     "Author": "Emily White",
     "Author_Image": "https://i.ibb.co/QmgNJH8/woman-writing-something-diary.jpg",
-    "Posted Date": "May 18, 2023",
+    "Posted_Date": "May 18, 2023",
     "Reading_Time": 20,
     "Hashtag": ["#AI", "#Technology"]
   }
